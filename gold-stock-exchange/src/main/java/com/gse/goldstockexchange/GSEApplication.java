@@ -1,0 +1,13 @@
+package com.gse.goldstockexchange;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GSEApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GSEApplication.class, args);
+	}
+
+}
